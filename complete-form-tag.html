@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Complete Form Tag HTML</title>
+        <STYLE>
+            BODY{BACKGROUND-IMAGE: URL("https://thumbs.dreamstime.com/b/painted-rainbow-background-abstract-canvas-texture-73882663.jpg");
+            BACKGROUND-REPEAT: NO-REPEAT;
+            BACKGROUND-SIZE: COVER;
+            }
+                </STYLE>  
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Personal Dtails</legend>
+                <label>Enter your name:</label>
+                <input type="text">
+                <br>
+                <br>
+                <label>Enter your email:</label>
+                <input type="email">
+                <br>
+                <br>
+                <label>Enter your date of birth:</label>
+                <input type="date">
+                <br>
+                <br>
+            </fieldset>
+            <!--Contact section-->
+            <fieldset>
+                <legend>Contact Details</legend>
+                <label>Enter your mobile number:</label>
+                <input type="number">
+                <br>
+                <br>
+                <label>Enter your address:</label>
+                <textarea></textarea>
+                </fieldset>
+                <!--Option section-->
+                <fieldset>
+                    <legend>Other details</legend>
+                    <label>Choose your system</label>
+                    <select>
+                        <!--Group one-->
+                        <optgroup label="Operating system">
+                        <option>Windows</option>
+                        <option>Linux</option>
+                        <option>Mac</option>
+                    </optgroup>
+                    <!--group two-->
+                    <optgroup label="Mobile OS">
+                        <option>Android</option>
+                        <option>IOS</option>
+                    </optgroup>
+                    </select>
+                    </fieldset>
+                </fieldset>
+            <!--Submit section-->
+            <fieldset>
+                <legend>Submit</legend>
+                <input type="submit" value="Submit">
+                <input type="reset"  value="Reset">
+            </fieldset>
+        </form>
+    </body>
+</html>
