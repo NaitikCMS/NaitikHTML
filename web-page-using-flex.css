@@ -1,0 +1,143 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    background-color: dimgrey;
+    display: flex;
+}
+
+.logo {
+    width: 500%;
+    height: 100%;
+    background-color: rosybrown;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.links {
+    width: 500%;
+    height: 100%;
+    background-color: rgb(125, 55, 55);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span {
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(195, 195, 195);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+
+}
+
+main {
+    width: 100%;
+    height: 65%;
+    background-color: darkgray;
+}
+
+article {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-1 {
+    width: 40%;
+    height: 80%;
+    box-shadow: 2px 2px 8px 5px rgb(112, 112, 112);
+}
+
+.box-2 {
+    width: 40%;
+    height: 80%;
+    box-shadow: 2px 2px 8px 5px rgb(112, 112, 112);
+}
+
+section {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 20%;
+    height: 80%;
+    box-shadow: 2px 2px 8px 5px rgb(112, 112, 112);
+}
+
+footer {
+    width: 100%;
+    height: 15%;
+    background-color: rosybrown;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+}
+
+@media (max-width:480px) {
+    article {
+        flex-direction: column;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    .box-1 {
+        height: 80%;
+        width: 40%;
+    }
+
+    .box-2 {
+        height: 80%;
+        width: 40%;
+    }
+    section{
+        flex-direction: column;
+    }
+}
+
+/*tablets screen */
+@media (min-width:786px) and (max-width:1024px){
+    span {
+        font-size: 25px;
+    }
+       section{
+        flex-direction: column;
+    }
+    .card{
+        width: 80%;
+        height: 20%;
+    }
+
+    
+}

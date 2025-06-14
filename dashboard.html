@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-color: lightcoral;
+            border-style: solid;
+        }
+        .main-container{
+            height:500px ;
+            width: 100%;
+           
+           
+            
+        }
+        .bottom-container {
+            width: 100%;
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            background-color: lightskyblue;
+        }
+        .heading{
+            font-size: 50px;
+            text-align: center;
+            
+        }
+
+        .box {
+            width: 20%;
+            height: 100%;
+            background-color: lightgreen;
+            border-style: solid;
+        }
+
+        .box-title {
+            font-size: 20px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .box-value {
+            font-size: 40px;
+            font-weight: 700;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .box-text {
+            font-size: 30px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .green-text {
+            color: green;
+        }
+
+        .color-red {
+            color: orange;
+        }
+       .box-icon
+       {
+       margin-left: 20px;
+       }
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-container">
+            <div class="heading">Dashboard overview</div>
+        </div>
+        <div class="bottom-container">
+        
+            <div class="box">
+                <span class="box-icon green-text"> 🤵</span>
+                <div class="box-title green-text">Total Revenue</div>
+                <div class="box-value color-red">$12,000</div>
+                <div class="box-text green-text">12% from last month</div>
+            </div>
+            <div class="box">
+                <span class="box-icon green-text"> 👦</span>
+                <div class="box-title green-text">New Users</div>
+                <div class="box-value color-red">$150</div>
+                <div class="box-text green-text">8% from last month</div>
+            </div>
+            <div class="box">
+                <span class="box-icon green-text"> 🗒️</span>
+                <div class="box-title green-text">Orders</div>
+                <div class="box-value color-red">$200</div>
+                <div class="box-text green-text">3% from last month</div>
+            </div>
+            <div class="box">
+                <span class="box-icon green-text"> ⭐</span>
+                <div class="box-title green-text">Satisfaction</div>
+                <div class="box-value color-red">$5000</div>
+                <div class="box-text green-text">2% from last month</div>
+            </div>
+        </div>
+</body>
+
+</html>
