@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+        }
+
+        .main-container {
+            height: 100%;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .header {
+            height: 100%;
+            width: 100%;
+            grid-template-rows: 1fr 1fr  1fr ;
+            display: grid;
+        }
+
+        .mid-container {
+            height: 100%;
+            width: 100%;
+           grid-template-rows: 1fr 1fr  1fr ;
+           display: grid;
+        }
+
+        .footer {
+            height: 100%;
+            width: 100%;
+            grid-template-rows: 1fr 1fr  1fr ;
+            display: grid;
+        }
+
+        .box-1 {
+            background-color: aqua;
+            height: 100%;
+            width: 100%;
+        }
+
+        .box-2 {
+            background-color: lawngreen;
+            height: 100%;
+            width: 100%;
+        }
+
+        .box-3 {
+            background-color: darkgreen;
+            height: 100%;
+            width: 100%;
+        }
+
+         .box-4 {
+            background-color: white;
+            height: 100%;
+            width: 100%;
+        }
+
+         .box-5 {
+            background-color: white;
+            height: 100%;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+           .box-one {
+           background-color: black;
+            height: 100%;
+            width: 100%;
+        }
+
+        .box-two {
+            background-color: chocolate;
+            height: 100%;
+            width: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="header">
+            <div class="box-1"></div>
+            <div class="box-2"></div>
+             <div class="box-5">
+                <div class="box-one"></div>
+                    <div class="box-two"></div>
+                </div>
+             
+        </div>
+        <div class="mid-container">
+             <div class="box-1"></div>
+            <div class="box-4"></div>
+             <div class="box-4"></div>
+        </div>
+        <div class="footer">
+             <div class="box-1"></div>
+            <div class="box-2"></div>
+             <div class="box-5">
+                 <div class="box-one"></div>
+                    <div class="box-two"></div>
+             </div>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>
